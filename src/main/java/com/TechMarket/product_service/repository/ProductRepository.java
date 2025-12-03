@@ -9,7 +9,6 @@ import java.util.List;
 
 @Repository
 public interface ProductRepository extends JpaRepository<Product, String> {
-    List<Product> findByCategoryId(String categoryId);
     boolean existsByCategoriesContaining(Category category);
     boolean existsByPrimaryCategory(Category category);
 }
