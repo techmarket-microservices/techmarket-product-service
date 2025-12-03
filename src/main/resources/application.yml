@@ -1,7 +1,0 @@
-spring:
-  application:
-    name: product-service
-  profiles:
-    active: ${SPRING_PROFILES_ACTIVE:local}
-server:
-  port: 8082
